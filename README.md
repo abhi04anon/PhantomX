@@ -33,3 +33,14 @@ chmod +x phantomx.py
 2.Vuln → nikto, enum4linux, searchsploit
 
 3.Full → Runs Recon + Vuln
+
+---
+
+## 🛠 Usage
+./phantomx.py -t <target> -m recon
+./phantomx.py -t <target> -m vuln -w {wordlists}
+./phantomx.py -t <target> -m full -w {wordlists}
+
+---
+
+
