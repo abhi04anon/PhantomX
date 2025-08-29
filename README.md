@@ -51,7 +51,7 @@ chmod +x phantomx.py
 Created with ❤️ by **Abhirup Sarkar (@abhi04anon)**  
 
 - GitHub: [abhi04anon](https://github.com/abhi04anon)    
-- LinkedIn: [Abhirup Sarkar](https://www.linkedin.com/in/abhirup-sarkar-/)
+- LinkedIn: [Abhirup Sarkar]<a id='https://www.linkedin.com/in/abhirup-sarkar-/'</a>
 ```
 ---
 
