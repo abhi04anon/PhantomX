@@ -37,10 +37,11 @@ chmod +x phantomx.py
 ---
 
 ## 🛠 Usage
+```bash
 1.Recon scan- ./phantomx.py -t <target> -m recon
 2.Vuln scan- ./phantomx.py -t <target> -m vuln -w {wordlists}
 3.Recon+Vuln scan- ./phantomx.py -t <target> -m full -w {wordlists}
-
+```
 ---
 
 
