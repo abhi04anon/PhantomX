@@ -4,6 +4,8 @@ A custom **multi-tool wrapper** for penetration testers.
 Run recon, vuln, and exploitation helpers from a single CLI.
 
 ---
+
+# 📂 Repository Structure
 PhantomX/
 │── phantomx.py          # Main executable script
 │── config.yaml       # Tool configurations & wordlists
