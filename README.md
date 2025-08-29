@@ -1,3 +1,7 @@
+## ⚠️ Disclaimer
+This tool is for educational and authorized penetration testing only.
+The author is not responsible for misuse or damage caused.
+
 # ⚡ PhantomX Offensive Toolkit ⚡
 
 A custom **multi-tool wrapper** for penetration testers.  
