@@ -20,4 +20,12 @@ git clone https://github.com/abhi04anon/PhantomX.git
 cd PhantomX
 pip install -r requirements.txt
 chmod +x phantomx.py
+```
+---
+## 📦 Modules
 
+1.Recon → whois, gobuster, theHarvester, sublist3r, whatweb, amass, ffuf, nmap, wafw00f, massscan
+
+2.Vuln → nikto, enum4linux, searchsploit
+
+3.Full → Runs Recon + Vuln
