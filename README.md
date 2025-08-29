@@ -37,9 +37,9 @@ chmod +x phantomx.py
 ---
 
 ## 🛠 Usage
-Recon scan- ./phantomx.py -t <target> -m recon
-Vuln scan- ./phantomx.py -t <target> -m vuln -w {wordlists}
-Recon+Vuln scan- ./phantomx.py -t <target> -m full -w {wordlists}
+1.Recon scan- ./phantomx.py -t <target> -m recon
+2.Vuln scan- ./phantomx.py -t <target> -m vuln -w {wordlists}
+3.Recon+Vuln scan- ./phantomx.py -t <target> -m full -w {wordlists}
 
 ---
 
