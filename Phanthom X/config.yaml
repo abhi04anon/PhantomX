@@ -1,0 +1,29 @@
+defaults:
+  output_dir: results
+  selected_wordlist: medium
+  wordlists:
+    small: /usr/share/wordlists/dirb/common.txt
+    medium: /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+    big: /usr/share/wordlists/dirb/big.txt
+    rockyou: /usr/share/wordlists/rockyou.txt
+
+tools:
+  # Recon Tools
+  whois: "whois {target} > {outfile}"
+  gobuster: "gobuster dir -u http://{target} -w {wordlist} -o {outfile}"
+  theHarvester: "theHarvester -d {target} -b all -f {outfile}"
+  sublist3r: "sublist3r -d {target} -o {outfile}"
+  whatweb: "whatweb {target} > {outfile}"
+  amass: "amass enum -d {target} -o {outfile}"
+  ffuf: "ffuf -u http://{target}/FUZZ -w {wordlist} -o {outfile}"
+
+  # IP Recon Tools
+  nmap: "nmap -A -T4 {target} -oN {outfile}"
+  wafw00f: "wafw00f {target} > {outfile}"
+  masscan: "masscan {target} -p1-65535 --rate 1000 -oL {outfile}"
+
+  # Vulnerability Tools
+  nikto: "nikto -h {target} -o {outfile}"
+  enum4linux: "enum4linux {target} > {outfile}"
+  searchsploit: "searchsploit {target} > {outfile}"
+
