@@ -44,5 +44,16 @@ chmod +x phantomx.py
 3.Recon+Vuln scan- ./phantomx.py -t <target> -m full -w {wordlists}
 ```
 ---
+---
+
+## 👨‍💻 Author
+```
+Created with ❤️ by **Abhirup Sarkar (@abhi04anon)**  
+
+- GitHub: [abhi04anon](https://github.com/abhi04anon)    
+- LinkedIn: [Abhirup Sarkar](https://www.linkedin.com/in/abhirup-sarkar-/)
+```
+---
+
 
 
