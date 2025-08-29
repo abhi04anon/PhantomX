@@ -8,7 +8,10 @@ A custom **multi-tool wrapper** for penetration testers.
 Run recon, vuln, and exploitation helpers from a single CLI.
 
 ---
+## 📸 Screenshot
+<img width="1070" height="640" alt="Screenshot 2025-08-29 121314" src="https://github.com/user-attachments/assets/f0c0c15a-1201-4262-bc98-06b3e5103966" />
 
+---
 # 📂 Repository Structure
 ```
 PhantomX/
